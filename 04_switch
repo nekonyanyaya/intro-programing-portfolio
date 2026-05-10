@@ -1,1 +1,12 @@
+SWITCH-CASE STATEMENTS
+
+switch-case statements serve a similar function to if statements, with a variation in syntax helping codify everything into 'cases' rather than the broader categories a if statement
+is normally meant to handle with its else-if and else categories.
+
+its syntax is
+
+switch(expression, such as a variable of any kind)
+{
+  case a:
+   whatever
 
