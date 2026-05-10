@@ -25,4 +25,6 @@ Normaly being split into 4 categories:
 And finally, Assignment operators assign valus to variables. They are: = (Assign), + (Add AND Assign, sums two values then groups the addition of the two into a single variable.) and all of their
 variations, (-= , *=, etc.)
 
+Writing out these operators as if they were questions really helped this all click.
+
 https://www.geeksforgeeks.org/dsa/operators-programming/ (21 FEB, 2024, User "Alpha Code".)
