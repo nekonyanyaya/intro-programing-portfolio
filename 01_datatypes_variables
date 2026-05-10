@@ -1,1 +1,25 @@
+DATA TYPES AND VARIABLES
 
+Data types serve as a classification for different types of, well, data, that a computer can parse and interpret in its own language.
+Common examples include: The various integer types (int16 (known as a 'short' data type internally), int32, int64(known as a 'long' data type internally)
+Text-based data such as characters (char) corresponding to individual ASCII values, (these are they keys you can find on your keyboard, for example) and string, which can house an entire sentence's worth of data.
+Floating-point and double types, which handle deeply precise sums in decimals.
+Booleans, the 0 and 1 of the computer and the smallest type of data possible to store. It is simply a True or False with no inbetween.
+
+Variables are assigned names which represent a value alloted to a corresponding data type, for instance:
+
+  In C# to declare a int variable we use the following syntax:
+
+  {data_type} {alloted name} = {given value OR blank in some cases}*
+
+  short babysFirstVariable = 12345;
+
+  *Boolen values cannot be left blank, for example.
+
+I figured out how this all worked when I first gave programming a go about 3 years ago. Once you categorize all the date you can slot into all of the types your compiler can handle, assigning values to variables is
+about the simplest thing you could ever do in any programming space.
+
+You should be careful with your naming conventions and your variables managing. Keep things concise and specialized, having 60 variables named int1~60 isint going to do you many favours and will only
+hinder your ability to trace your own code. Think of how a third-party reading your code would interpret it. 
+
+https://en.wikipedia.org/wiki/Data_type
