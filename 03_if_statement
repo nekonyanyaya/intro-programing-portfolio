@@ -25,3 +25,7 @@ EX:
   {
     Console.WriteLine("AAAH!");
   }
+
+This was one of the first things I learned to do in programming, its an evergreen statement that always helps out. I figured out how to imagine it in my head better when I
+started using flowcharts and messing around with a compiler. As standardized and professional as one must normally be with code, messing around is never bad when not important! Maybe you'll understand a concept better
+when you're not chained down by responsability, who knows! Just don't let writing lousy or silly code become a habit!
