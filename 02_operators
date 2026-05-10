@@ -1,1 +1,28 @@
+OPERATORS IN PROGRAMMING
 
+Operators help execute common functions in a piece of code much in the same way they would in non-progamming fields*.
+Normaly being split into 4 categories:
+
+  Arithmetic operators perform the arithmetic functions you would expect them to. NOTE: These are INDIVIDUAL symbols, a syntax of ++ or == does NOT equate to + or = in normal mathematics.
+  This category includes addition (+), substraction (-), multiplication (*), division (/), etc.
+
+  Comparison operators help compare two values and returns a Boolean result(T/F). Think of these as a question you lodge inbetween two values.
+  Examples include: == (equal to), != (not equal to), < (lesser than), > (greater than). Appending = to either of these last two (<>) makes the compiler return True if the value is equal to the other alongside the
+  predisposed condition.
+
+    EX: 9 > 8 = True     ,   8 > 8 = False  ,       8 >= 8 = True
+  (is 9 strictly greater   (is 8 strictly greater   (is 8 equal to or strictly
+  than 8?)                  than 8)                  greater than 8?)
+    YES  result= TRUE        NO result= FALSE         YES   result= TRUE
+
+  Logical operators perform logic operations on Boolean values, they bring concepts of human language into the computer's understanding.
+  They are: && (AND)  || (OR)  ! (NOT).
+
+    EX:  [...](isFat && isFluffy)  both booleans must be True for this statement to return True.
+         [...](isNamedWhiskers || isTheFatFluffyOrangeCat) returns true if either condition is met.
+         [...](isATabbyCat !true) returns true if this condition is False, if it was !False it would be the inverse.
+
+And finally, Assignment operators assign valus to variables. They are: = (Assign), + (Add AND Assign, sums two values then groups the addition of the two into a single variable.) and all of their
+variations, (-= , *=, etc.)
+
+https://www.geeksforgeeks.org/dsa/operators-programming/ (21 FEB, 2024, User "Alpha Code".)
