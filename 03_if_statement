@@ -1,1 +1,27 @@
+IF STATEMENTS
 
+Theyre one of the simplest advanced condition statements, used to execute a certain fuction if a condition(s) is met.
+
+Its syntax is as follows:
+
+if (your condition
+{
+  whatever happens if its met
+}
+else (or else if)*
+{
+  whatever happens if the secondary condition (elseif) is met OR what happens if the original or secondary conditions arent met.
+}
+
+  *The statement still works even without any Else or ElseIf appendages. You do not need to add them every single time!
+
+EX:
+
+  if (isCreepyClown == False)
+  {
+    Console.WriteLine("I like this guy!");
+  }
+  else
+  {
+    Console.WriteLine("AAAH!");
+  }
