@@ -1,1 +1,27 @@
+ARRAYS
 
+Arrays help us define a list of values according to a set data type, eliminating the need to define individual variables and wasting time and memory.
+
+Its usual syntax looks like this:
+
+data-type[the range of the array, in this case a singular numerical digit] arrayname = {whatever you want in here};
+
+EX:
+  int[5] myCuteNumberList = {44, 92, 1123, 4432, 33};
+
+Every position in an array is called an INDEX, said index numbers range from 0 to the size of your array-1, EX: this array ranges 0,1,2,3,4 for all 5 digits of its size.
+The index number is helpful for modifying a specific part of an array,
+
+Using the example from earlier:
+
+If we wanted to modify the number '1123' from our array, we'd only have to do the following
+
+myCuteNumberList[2] = 77;
+
+To automatically get the length of an array whose length isint already specified, you can append .Length to your array's name and print it out or use it wherever that value
+may be of use to you.
+
+Once I got the index information in my head this wasn't much of an issue to comprehend. You should be careful to use propper indication of your data types so that they fit those of the array, the values
+are NOT automatically converted into the desired data type upon input.
+
+https://www.w3schools.com/cs/cs_arrays.php
