@@ -1,1 +1,27 @@
+2D ARRAYS
 
+2D Arrays are the same as a standard array, with the key difference being that they store data in a 2D format rather than the linear
+format used earlier.
+
+Its syntax would be:
+
+data-type [numerical value, numerical value] = { {value(s)}, {value(s)} };
+
+EX:
+
+  int[2,2] myEVILNumberList = { {4,20}, {81653, 17} };
+
+Visualized it would be: |  4  |  20  |
+                        | 81653 | 17 |
+
+Much like the previous note, to modify a specific value in said array, one must specify 2 values. It helps if we define horizontal number lines as Rows and vertical lines as Columns, hereinthereafter refered to as such.
+One value of a Row, one value of a Column, and any of its components are accesible. Lets say we want to modify the '17' value:
+
+EX:
+  myEVILNumberList[1,1] = 20;
+  
+You should be careful not to confuse the index markings, they still flow 0 to length-1!
+
+This particular topic clicked when we did that triangle of Xs exercise.
+
+https://www.w3schools.com/cs/cs_arrays_multi.php
