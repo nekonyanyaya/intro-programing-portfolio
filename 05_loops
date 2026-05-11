@@ -1,1 +1,8 @@
+LOOPS
 
+Loops help automate a process that requires frequent repetition until a certain number of runs, formally known as iterations, have transpired.
+The loops I'll be explaining are:
+
+  do-while loops
+  for loops
+  nested loops
