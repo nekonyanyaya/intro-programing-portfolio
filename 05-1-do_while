@@ -1,1 +1,31 @@
+DO-WHILE LOOPS
 
+do-while loops execute a line of code so long as a condition is met, this means that unless the condition itself has a way to be measured or counted, the loop will go on an indefinite amount of times.
+
+Its syntax is the following:
+
+  do
+  {
+  //code
+  }
+  while (condition);
+
+EX:
+
+bool isASuperCoolBoolean = True;
+
+  do
+  {
+  Console.WriteLine("Cheese");
+  }
+  while(isASuperCoolBoolean == True);
+
+  //This would print an infinite number of "Cheese" strings. World hunger be damned.
+
+You should be wary not to utilize this loop if the action you want to repeat has to be done only a set number of times! These loops are helpful for shutting down sections of code to be activated when a
+Boolean switch is flipped (for example) or to create a small vacuum for repeated variables. !: All variables defined inside of a loop are exclusively used in said loop, be wary of not using nested variables!
+They wont be able to be found. Think of it like a sealed off chamber. Whatever happens in it, stays in. Also beware to not confuse these with while loops! Those are different.
+
+Once I got to the fast-food exercise we did that used these a lot they clicked really quickly. They're specially helpful for the scope they provide in allowing repeated variables.
+
+https://www.w3schools.com/cs/cs_while_loop.php
