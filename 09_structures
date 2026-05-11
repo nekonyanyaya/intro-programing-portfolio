@@ -1,1 +1,31 @@
+STRUCTURES
 
+Structures help define a list of qualities to be kept-note of in a single variable, basically a big variable that has smaller compartments one can store set information in.
+Its syntax is as follows:
+
+public struct name-of-structure
+{
+  public data-type variable-name
+  ...
+}
+
+EX:
+  public struct ComponentsOfHotdog
+  {
+    public string BunType;
+    public string MeatType;
+    public string GarnishOrToppings;
+  }
+
+//invoked, this would be:
+
+ComponentsOfHotdog D423;
+D423.BunType = "Extra-Long Hotdog Bun.";
+D423.MeatType = "Sausage with chilli.";
+D423.GarnishOrToppings = "Green Onion.";
+
+// this binds said answeres to each corresponding variable under the name alloted.
+
+Beware! You should not confuse Structures with Class, they server different purpouses and are not interexchangeable terms! One refers to Value types (struct) and the other to Reference types (class).
+
+https://www.geeksforgeeks.org/c-sharp/c-sharp-structures-set-1/
