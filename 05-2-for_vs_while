@@ -1,1 +1,19 @@
+FOR VS WHILE LOOPS
 
+In the previous section I aluded to the existance of a loop that is able to run a measured amount of times. This enigmatic code-piece is the for loop. They run code a set amount of times.
+They are one of the most quintisential pieces of code when it comes to anything counted &&|| repeated.
+
+For clarity, a standard for loop looks something like this:
+
+  for (i=value;i<value;i++*)
+  {
+  //code
+  }
+
+  *Can also be a retrograde count if needed, or an increment of non-1, such as +2 or +4, whatever fits the code best, so long as it IS a pos/neg modifier.
+
+The differences here stem primarily from the for loops' ability to be measured as I stated previously as a lacking feature of the do-while loop. It's not impossible to measure a do-while loop, but it would
+be an unnesesarily convoluted way to do something that the for loop was designed to do by the nature of its components.
+
+You should stick to using do-while loops for scopes or to compartmentalize pieces of code and to have said 'compartments' be de-activated or activated when needed. While for loops remain a top choise for precise
+repetition.
