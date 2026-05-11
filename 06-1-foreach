@@ -1,1 +1,20 @@
+FOR EACH LOOPS
 
+for-each loops exclusively loop the contents of an Array.
+
+Syntax:
+  foreach(data-type variable-name in array-name)
+  {
+    //code
+  }
+
+EX:
+
+string[] icecreamsDevoured = {"Mint down in Beauverry St.", "Chocolate at Ricky's place.", "Cotton candy waffle cone at the abandoned cold storage depot."}
+
+  foreach(string i in icecreamsDevoured)
+  {
+    Console.WriteLine(i);
+  }
+
+https://www.w3schools.com/cs/cs_foreach_loop.php
