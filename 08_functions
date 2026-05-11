@@ -1,1 +1,33 @@
+FUNCTIONS
 
+Functions, in C# known as Methods, are snippets of independent code that execute a desired function upon being called. They serve as a way to avoid repetition with
+procedures you find yourself doing often. Static pertains to the Method being of the class defined above it, but not an element of it. Void means that the Method's
+completion wont return a value of any kind.
+
+Its syntax normally looks like this:
+
+class Program*
+  {
+    static void name-of-method()**
+    {
+    //code to execute
+    }
+  }
+
+*Class does not strictly have to be Program.
+**Important! Use ThisKindOfNamingSystem for Methods. This is for readability, and to juxtapose against the naming convetion of variables.
+
+To 'call' (invoke a Method) in code, you need to type the name of your method followed by two parenthesis.
+
+EX:
+
+static void ShoutAtMe()
+{
+  Console.WriteLine("AAAAH! AAAAAAAAAH!  AAAAAAAAAAAAAAAAAAAAH!");
+}
+
+ShoutAtMe() // would print out this ^
+
+I learned this one through some personal digging since it didn't quite click in class, but i figured it out after reading an article about it.
+
+https://www.w3schools.com/cs/cs_methods.php
