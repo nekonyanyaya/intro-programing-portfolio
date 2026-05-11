@@ -1,1 +1,21 @@
+NESTED LOOPS
+
+Nested loops are the capacity for loops to be ran inside of one another. For example:
+
+A for loop can be ran inside of another for loop to have a separate count following the main one:
+
+for(i=0;i<11;i++)
+{
+Console.WriteLine("Hi");
+  for(p=0;p<=5;p++)
+  {
+    if(p%2==0)
+    {
+    Console.WriteLine("Bye");
+    }
+  }
+}
+
+This also works for do-while or while loops. Any number of nested loops can be added inside of a loop.
+Beware! Any variable defined in the parent loop will NOT be able to be repeated inside any of its nested loops, parent loop variables takes priority over the offshoots.
 
